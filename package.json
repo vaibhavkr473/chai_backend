@@ -2,8 +2,10 @@
   "name": "back",
   "version": "1.0.0",
   "description": "First back with git",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +15,8 @@
     "chai"
   ],
   "author": "Vaibhav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
